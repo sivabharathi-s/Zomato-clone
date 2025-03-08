@@ -1,0 +1,15 @@
+.contact-container {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 2rem 0;
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

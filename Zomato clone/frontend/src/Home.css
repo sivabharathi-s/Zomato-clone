@@ -1,0 +1,32 @@
+.restaurant-list {
+  padding: 20px 0;
+}
+
+.restaurant-list .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.restaurant-list .card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.restaurant-list .card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.restaurant-list .card-body {
+  padding: 15px;
+}
+
+.restaurant-list .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.restaurant-list .btn {
+  font-size: 0.875rem;
+}

@@ -1,0 +1,15 @@
+.cart-container {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 2rem 0;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

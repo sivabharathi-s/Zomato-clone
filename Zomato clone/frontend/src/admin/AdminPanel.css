@@ -1,0 +1,79 @@
+.admin-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.admin-nav {
+  margin-bottom: 20px;
+  background-color: #007bff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.admin-nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.admin-nav ul li {
+  margin: 0 10px;
+}
+
+.admin-nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.admin-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.admin-signin-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.admin-signin-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-signin-container .form-group {
+  margin-bottom: 15px;
+}
+
+.admin-signin-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.admin-signin-container .form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.admin-signin-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-signin-container button:hover {
+  background-color: #0056b3;
+}
